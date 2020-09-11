@@ -1,1 +1,18 @@
-{{ content }}
+---
+---
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% include head_scripts.html %}
+        <title>{{ page.title }} | {{ site.title }}</title>
+        {% include head.html %}
+    </head>
+    <body>
+        {% include body_scripts.html %}
+        {{ content }}
+        {% include footer.html %}
+        {% include footer_scripts.html %}
+    </body>
+
+</html>
