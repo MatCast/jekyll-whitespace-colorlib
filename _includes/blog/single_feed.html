@@ -4,20 +4,15 @@
         <div class="text py-4">
             <div class="meta mb-3">
                 <div>
-                    <a href="#">Sep. 20, 2018</a>
+                    <a href="#">{{ post.date }}</a>
                 </div>
                 <div>
-                    <a href="#">Admin</a>
-                </div>
-                <div>
-                    <a class="meta-chat" href="#">
-                        <span class="icon-chat"></span>
-                        3</a>
+                    <a href="#">{{ post.author }}</a>
                 </div>
             </div>
             <div class="desc">
                 <h3 class="heading">
-                    <a href="#">Even the all-powerful Pointing has no control about the blind texts</a>
+                    <a href={{ post.url }}>{{ post.title }}</a>
                 </h3>
             </div>
         </div>
