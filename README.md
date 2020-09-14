@@ -1,11 +1,6 @@
-# whitespace-colorlib
+# Whitespace Jekyll Theme
 
-Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes`, your sass files in `_sass` and any other assets in `assets`.
-
-To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
-
-TODO: Delete this and the text above, and describe your gem
-
+Jekyll theme based on [whitespace theme from colorlib](https://colorlib.com/wp/template/whitespace/) under `CC BY 3.0` license.
 
 ## Installation
 
@@ -46,7 +41,17 @@ Your theme is setup just like a normal Jekyll site! To test your theme, run `bun
 When your theme is released, only the files in `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
 To add a custom directory to your theme-gem, please edit the regexp in `whitespace-colorlib.gemspec` accordingly.
 
-## License
+## Credits
 
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+The original source of this repo is at [colorlib](https://colorlib.com/wp/template/whitespace/). You can see the original demo of the theme [here](https://colorlib.com/preview/theme/whitespace/).
 
+Original README from colorlib:
+
+> Thank you for using our template!
+>
+> For more awesome templates please visit https://colorlib.com/wp/templates/
+>
+> Copyright information for the template can't be altered/removed unless you purchase a license.
+> More information about the license is available here: https://colorlib.com/wp/licence/
+>
+> Removing copyright information without the license will result in suspension of your hosting and/or domain name(s).
