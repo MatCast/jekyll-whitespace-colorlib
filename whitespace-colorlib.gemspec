@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "This theme is based on colorlib whitespace."
   spec.homepage      = "https://github.com/MatCast/jekyll-whitespace-colorlib"
-  spec.license       = "MIT"
+  spec.license       = "CC 3.0"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README)!i) }
 

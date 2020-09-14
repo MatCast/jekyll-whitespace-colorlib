@@ -1,0 +1,39 @@
+# Site settings
+title: Whitespace - Free Bootstrap 4 Template by Colorlib
+email: 2680270+MatCast@users.noreply.github.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Create a strong and memorable first impression with a free one-page business website template, Imagine.
+  This remarkable site canvas has a clean and minimalistic look that will display your content beautifully.
+  Instead of doing the work from the ground up, you can now spice things up immediately with Imagine.
+  It is an HTML template that you will find a breeze to use, thanks to its tidy structure.
+  Keep in mind, the appearance of Imagine works fantastically well by default, but you can tweak it, too.
+  It is released under the Creative Commons.
+# baseurl: "" # the subpath of your site, e.g. /blog
+url: https://github.com/MatCast/jekyll-whitespace-colorlib # the base hostname & protocol for your site, e.g. http://example.com
+github_username: MatCast
+author: MatCast
+
+# Build settings
+# markdown: kramdown
+theme: whitespace-colorlib
+# plugins:
+# - jekyll-feed
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
